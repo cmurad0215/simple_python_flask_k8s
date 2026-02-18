@@ -1,0 +1,13 @@
+cd into the folder python_flask
+
+
+docker build -t simple-webapp .
+
+
+docker run -d \
+  --name webapp \
+  -p 5000:5000 \
+  --restart unless-stopped \
+  simple-webapp
+
+
