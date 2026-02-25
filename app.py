@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Hello from Dockerized WebApp modified after 22nd build 🚀",
+        "message": "Hello from Dockerized WebApp modified after 23rd build 🚀",
         "hostname": os.uname().nodename
     })
 
